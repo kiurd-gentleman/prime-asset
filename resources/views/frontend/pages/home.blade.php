@@ -4,6 +4,27 @@
 
 @endsection
 @section('content')
+<!-- Header Start -->
+<div class="container-fluid header bg-white p-0">
+    <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+        <div class="col-md-6 p-5 mt-lg-5">
+            <!-- <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1> -->
+            <h1 class="display-5 animated fadeIn mb-4"> Condominium & <span class="text-primary">Apartment </span> Project</h1>
+            <p class="animated fadeIn mb-4 pb-2">A modern township designed on modern sustainable principles of equity, livability, and competitiveness</p>
+            <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get a quote</a>
+        </div>
+        <div class="col-md-6 animated fadeIn">
+            <div class="owl-carousel header-carousel">
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="{{asset('/frontend/img/carousel-1.jpg')}}" alt="">
+                </div>
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="{{asset('/frontend/img/carousel-2.jpg')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">

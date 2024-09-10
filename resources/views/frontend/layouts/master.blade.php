@@ -44,9 +44,6 @@
             @yield('content')
         </main>
 
-
-
-
         <!-- Footer Start -->
         @include('frontend.components.footer')
         <!-- Footer End -->
